@@ -1,10 +1,12 @@
 <html>
     <head><meta charset="utf-8"></head>
     <body>
-        <form action="http://loacalhost.method.php">
+        <form action="http://loacalhost.method.php" method="post">
+        <!-- 메소드를 지정해주지 않으면 url을 통해 정보를 전달하는
+            get방식을 자동적으로 사용 대부분 post방식으로 지정해주면
+            된다. -->
             <input type="text" name="id">
             <input type="password" name="pw">
-
             <input type="submit" >
         </form>
     </body>
