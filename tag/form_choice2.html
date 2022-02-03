@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://localhost.radio.php">
+            <p>
+                <h1>colors</h1>
+                red <input type="radio" name="color" value="red">
+                black <input type="radio" name="color" value="black" checked>
+                blue <input type="radio" name="color" value="blue">
+                <!-- name값이 같은 것들끼리 grouping되고
+                    같은 group에서는 하나만 선택 가능 -->
+            </p>
+            <p>
+                <h1>size(multiple)</h1>
+                95 <input type="checkbox" name="size" value="95" checked>
+                100 <input type="checkbox" name="size" value="100" checked>
+                105 <input type="checkbox" name="size" value="105" checked>
+                <!-- check box는 여러개 선택 가능 -->
+            </p>
+            <input type="submit">
+        </form>
+    </body>
+</html>

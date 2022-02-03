@@ -1,0 +1,36 @@
+<html>
+<body>
+    <form action="http://loacalhost.label.php">
+        <p>
+            <label for="id_txt">ID</label> :
+            <input id="id_txt" type="text" name="id" value="default value">
+        </p>
+        <p>
+            <label for="pw">PW</label> :
+            <input id="pw" type="password" name="pw" value = "default value">
+        </p>
+        <p>
+            <label for="comment">textarea</label> :
+            <textarea id="comment" cols="50" rows="2">default value</textarea>
+        </p>
+        <p>
+            <label>Text 
+            <input type="text" name="id" value="default value">
+            </label>
+            <!-- label으로 input을 감싸도 for, id를 사용한
+                위 단락들과 같은 효과를 낸다 -->
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" name="color" value="red"> 빨
+            </label>
+            <label>
+            <input type="checkbox" name="color" value="blue"> 파
+            </label>
+            <!-- 체크박스 옆 글씨를 label 안에 넣어주면 
+                글씨 클릭해도 체크됨 -->
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>
